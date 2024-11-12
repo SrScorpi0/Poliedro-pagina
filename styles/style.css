@@ -1,0 +1,301 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo-poliedro {
+    width: 90px;
+}
+
+.menu-superior { 
+    color: #1E1E1E;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-right: 60px;
+    
+}
+
+.menu-superior a {
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+.banner-principal {
+    width: 100%;
+    
+}
+
+#banner-principal {
+    background-size: cover;
+}
+
+.seccion-nosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 6rem;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f0f0f0;
+    
+}
+
+.seccion-nosotros > div:first-child {
+    flex: 1;
+}
+
+.imagen-grupal {
+    width: 100%;
+    height: auto;
+    filter: grayscale();
+    display: block;
+
+}
+
+.nosotros-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.nosotros-texto h3 {
+    margin-top: 5px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+}
+
+.nosotros-texto p {
+    margin-top: 0px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #333333;
+}
+
+.nosotros-texto p:last-child {
+    color: #666666;
+
+}
+
+.que-hacemos-seccion {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.subtitulo-que-hacemos {
+    color: dimgrey;
+}
+
+.bloques-quehacemos {
+    
+
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.bloque {  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #f2f2f2;
+    background-color: hsl(0, 0%, 84%);
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    text-align: left;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #0009 ;
+    
+
+}
+.logo-bloque {
+    padding-top: 10px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-dentro-bloque {
+    height: 50%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    text-align: left;
+
+}
+.formulario-de-contacto {
+    width: 100%;
+}
+
+.formulario {
+    padding-top: 24px ;
+    padding-bottom: 24px;
+    color: white;
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+
+    
+}
+
+.barra-input {
+    margin: 24px;
+    margin-right: 50px;
+    background-color: transparent;
+
+}
+
+.barra-input label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ffffff;
+
+}
+
+.barra-input input {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a2a;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+
+}
+
+.barra-input input[name="mensaje"] {
+    height: 120px;
+}
+
+.barra-input textarea {  
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a2a;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.barra-input textarea {
+    min-height: 120px;
+    resize: vertical; 
+    font-family: inherit;
+    
+}
+
+.barra-input input:focus {
+    outline: none;
+    border-color: #444444;
+}
+
+.boton-enviar {
+
+    margin-top: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#enviar {
+    width: 100%;
+    padding: 14px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+}
+
+.menu-inferior {
+    margin-top: 50px;
+    margin-left: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.redes-sociales {
+    gap: 10px;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.lista {
+    
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 150px;
+    position: relative;
+    bottom: 15px;
+}
+
+.lista1 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: flex-start;
+}
+
+.elementos {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+}
+.elemento {
+    padding-top: 20px;
+}
+
+.seccion-copyrigth {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+}
