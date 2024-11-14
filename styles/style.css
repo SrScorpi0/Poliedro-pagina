@@ -28,6 +28,22 @@ body {
     
 }
 
+.inicio-sesion {
+   
+    padding: 12px;
+    background-color: #1a73e8;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.inicio-sesion a {
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
 .menu-superior a {
     color: #1E1E1E;
     text-decoration: none;

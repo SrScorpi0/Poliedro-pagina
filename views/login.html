@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles/login.css">
+</head>
+
+<body>
+    <div id="main-content" class="main-content"></div>
+        
+
+    
+
+    <div id="overlay" class="overlay" onclick="closeLogin()">
+        <div class="login-modal" onclick="event.stopProgramation()">
+            <div class="logo"><img src="/assets/1_ 2.png" alt=""></div>
+                <h2>Iniciar sesion</h2>
+                <input type="text" placeholder="Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button class="login-button" onclick="submitlogin()">Ingresar</button>
+                <p><a href="#">Olvidaste tu contraseña?</a></p>
+        </div>
+    </div>
+    <script src="/javascript/login.js"></script>
+</body>
+</html>
