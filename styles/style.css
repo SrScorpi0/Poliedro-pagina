@@ -13,6 +13,25 @@ body {
     padding: 10px 20px;
 }
 
+.superior-izquierdo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.superior-izquierdo a {  
+text-decoration: none;
+padding: 12px;
+background-color: #1a73e8;
+color: #ffffff;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+
+}
+
 .logo-poliedro {
     width: 90px;
 }
@@ -26,22 +45,6 @@ body {
     gap: 30px;
     padding-right: 60px;
     
-}
-
-.inicio-sesion {
-   
-    padding: 12px;
-    background-color: #1a73e8;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    
-}
-
-.inicio-sesion a {
-    color: #1E1E1E;
-    text-decoration: none;
 }
 
 .menu-superior a {

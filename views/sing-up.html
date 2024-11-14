@@ -1,11 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro Nuevo Usuario</title>
+    <link rel="icon" href="/Semana 05/assets/1_ 2.png" type="Image/png">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/sing-up.css">
 </head>
-<body>
+<body>     
+    <header>
+        <!-- Esta seccion pertenece al menu superior-->
+        <section class="barra-superior">   
+            <div class="superior-izquierdo">
+                <img src="/assets/1_ 2.png" alt="" class="logo-poliedro"> 
+                <a href="/views/login.html" >Iniciar Sesion</a>
+                <a href="/views/sing-up.html" >Registrarse</a>                      
+            </div>
+            <div class="menu-superior">
+                <a href="index.html">Home</a>                                    
+                <a href="Capacitaciones/Capacitaciones.html">Capacitaciones</a>    
+                <a href="Nosotros/Nosotros.html">Nosotros</a>
+                <a href="Contacto/Contacto.html">Contacto</a>
+            </div>
+        </section>    
+    </header>
     
+    <section class="formulario-registro">
+        <form action="" class="formulario">
+        <div class="renglon-2-datos">    
+            <div class="barra-input">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Pablo" name="nombre" id="nombre">
+            </div>
+            <div class="barra-input">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+            </div>  
+        </div>  
+        <div class="renglon-3-datos">   
+            <div class="barra-input">
+                <label for="dni">DNI</label>
+                <input type="number" placeholder="00111222 (sin puntos)" name="dni" id="dni">
+            </div>        
+            <div class="barra-input">
+                <label for="fecha-de-nacimiento">Fecha de nacimiento</label>
+                <input type="date" placeholder="dia/mes/año" name="fecha-de-nacimiento" id="fecha-de-nacimiento">
+            </div>
+            <div class="barra-input">
+                <label for="telefono">Telefono</label>
+                <input type="number" placeholder="telefono" name="telefono" id="telefono">
+            </div>
+        </div>
+        <div class="renglon-3-datos">
+            <div class="barra-input">
+                <label for="direccion">Direccion</label>
+                <input type="text" placeholder="direccion" name="direccion" id="direccion">
+            </div>
+        
+            <div class="barra-input">
+                <label for="localidad">Localidad</label>
+                <input type="text" placeholder="localidad" name="localidad" id="localidad">
+            </div>
+            <div class="barra-input">
+                <label for="codigo-postal">Codigo Postal</label>
+                <input type="number" placeholder="codigo-postal" name="codigo-postal" id="codigo-postal">
+            </div>
+        </div>
+            <div class="barra-input">
+                <label for="email">Email</label>
+                <input type="email" placeholder="ejemplo@gmail.com" name="email" id="email">
+            </div>
+        <div class="renglon-2-datos"> 
+            <div class="barra-input">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" placeholder="Contraseña" required>
+            </div>
+            <div class="barra-input">
+                <label for="contraseña">Repetir contraseña</label>
+                <input type="password" name="confirmar-contraseña" placeholder="Contraseña" required>
+            </div>
+        </div>
+            <div class="boton-enviar"> 
+                <button class="registrar-datos">Confirmar</button>
+            </div>
+        </form>
+    </section>
+
+
+    <!-- esta seccion pertenece al pie de la pagina con el mini menu inferior, redes sociales y el texto de copyright-->
+    <footer>
+        <section class="menu-inferior">
+            <div class="redes-sociales">
+                <div>
+                <img src="/assets/X Logo.png" alt="">
+                </div>
+                <div>
+                <img src="/assets/Logo Instagram.png" alt="">
+                </div>
+                <div>
+                <img src="/assets/Logo YouTube.png" alt="">
+                </div>
+                <div>
+                <img src="/assets/Icon linkedin.png" alt="">
+                </div>
+            </div>
+            <div class="lista">
+                    <div class="lista1">
+                        <h3>Que hacemos</h3>
+                        <ul class="elementos">
+                            <li class="elemento">
+                                Objetos
+                            </li>
+                            <li class="elemento">
+                                Quienes Somos
+                            </li>
+                            <li class="elemento">
+                                Extras
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lista1">
+                        <h3>Institucion</h3>
+                        <ul class="elementos">
+                            <li class="elemento">
+                                Acerca de nosotros
+                            </li>
+                            <li class="elemento">
+                                Clientes
+                                </li>
+                            <li class="elemento">
+                                Recursos
+                            </li>
+                            <li class="elemento">
+                                Blog
+                            </li>
+                            </ul>
+                    </div>
+                    <div class="lista1">
+                        <h3>Soporte</h3>
+                        <ul class="elementos">
+                            <li class="elemento">
+                                Ayuda
+                            </li>
+                            <li class="elemento">
+                                Tutoriales
+                            </li>
+                            <li class="elemento">    
+                            Contacto
+                            </li>
+                        </ul>
+                    </div>
+                    
+            </div>    
+        </section>
+        <section class="seccion-copyrigth" >     
+                <div >
+                    <div>
+                        <p>Copyright © Poliedro. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+        </section>
+    </footer>
+<script src="/javascript/contact.js"></script>
 </body>
-</html>
+
+</html>                

@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
 function openLogin() {
     document.getElementById('overlay').style.display = 'flex';
 }
-
-function closeLogin() {
-    document.getElementById('overlay').style.display = 'none';
-}
 */
+function closeLogin() {
+    window.location.href = "index.html";
+}
+
 function submitLogin() {
     alert('Iniciando sesión...');
     closeLogin();

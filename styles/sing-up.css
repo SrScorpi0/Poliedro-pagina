@@ -1,0 +1,39 @@
+
+.registrar-datos {
+    width: 100%;
+    padding: 14px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    }
+
+.registrar-datos:hover {
+    background-color: #e0e0e0;
+    color: #333333;
+}
+.renglon-2-datos , .renglon-3-datos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+} 
+
+.renglon-2-datos .barra-input {
+    flex-basis: 45%;
+}
+.renglon-3-datos .barra-input {
+    flex-basis: 30%;
+}
+
+.formulario-registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+

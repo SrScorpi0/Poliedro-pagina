@@ -8,13 +8,13 @@
 </head>
 
 <body>
-    <div id="main-content" class="main-content"></div>
+    <div id="main-content" class="main-content" onclick="closeLogin()"></div>
         
 
     
 
     <div id="overlay" class="overlay" onclick="closeLogin()">
-        <div class="login-modal" onclick="event.stopProgramation()">
+        <div class="login-modal" onclick="event.stopPropagation()">
             <div class="logo"><img src="/assets/1_ 2.png" alt=""></div>
                 <h2>Iniciar sesion</h2>
                 <input type="text" placeholder="Usuario" required>
