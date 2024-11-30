@@ -7,6 +7,14 @@
     <link rel="icon" href="/Semana 05/assets/1_ 2.png" type="Image/png">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/sing-up.css">
+    <style>
+        .error {
+        color: red;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        }
+        </style>
 </head>
 <body>     
     <header>
@@ -69,12 +77,14 @@
         </div>
             <div class="barra-input">
                 <label for="email">Email</label>
-                <input type="email" placeholder="ejemplo@gmail.com" name="email" id="email">
+                <input type="email" placeholder="ejemplo@gmail.com" name="email" id='email'>
+                <p id='errorEmail' class="error"></p>
             </div>
         <div class="renglon-2-datos"> 
             <div class="barra-input">
                 <label for="contraseña">Contraseña</label>
-                <input type="password" name="contraseña" placeholder="Contraseña" required>
+                <input type="password"   id="repeatPassword" name="contraseña" placeholder="Contraseña" required>
+                <p id="errorRepeatPassword" class="error"></p>
             </div>
             <div class="barra-input">
                 <label for="contraseña">Repetir contraseña</label>
